@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(16, 57, 241);
 }
 
 .tarefas{
@@ -16,4 +16,54 @@ body{
     padding: 20px;
     text-align: center;
     font-size: 20px;
+}
+
+.titulo{
+    margin-bottom: 20px;
+    border-bottom: 0.5px solid rgb(0, 0, 0);
+    font-family: system-ui;
+}
+
+.form{
+    margin-bottom: 20px;
+
+}
+
+.add_tarefa{
+    font-size: 26px;
+    margin-bottom: 10px;
+    font-family: system-ui;
+}
+
+.tarefa{
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.acao{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    font-family: system-ui;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+}
+
+.nome_tarefa{
+    justify-content: flex-start;
+    display: flex;
+    padding: 10px 30px;
+    font-family: system-ui;
+}
+
+.btn_remover{
+    justify-content: flex-end;
+    display: flex;
+    margin-top: -30px;
+    font-family: system-ui;
+    margin-right: 30px;
+    text-decoration: none;
+    color: red;
 }

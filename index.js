@@ -36,6 +36,6 @@ app.get('/deletar/:id',(req,res)=>{
     res.render('index',{tarefasList:tarefas});
 })
 
-app.listen(4000,()=>{
+app.listen(5000,()=>{
     console.log('servidor rodando!');
 })
